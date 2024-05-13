@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #050529; /* Dark background color */
+    padding: 25px 20px; /* Padding around the navbar */
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center; /* Center items vertically */
+    background-image: url("https://www.striim.com/wp-content/uploads/2023/05/Striim_PP_BCKGRND_012.png");
+    background-size: cover;
+  }
+
+  p{
+    color: white;
+    font-size: medium;
+    font-weight: 100;
+  }
+  .navbar-title {
+    color: #fff; /* White text color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .nav-list {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox layout */
+  }
+  
+  .nav-item {
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  .nav-link {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .nav-link:hover {
+    color: #ccc; /* Lighter text color on hover */
+  }
+  

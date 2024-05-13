@@ -1,0 +1,41 @@
+.line {
+    padding-top: 40px;
+    max-width: 900px;
+    /* Adjust max-width as needed */
+    /* margin: 0 auto; */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.filter{
+    background-color: #050529;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: -50px; 
+    margin-left: 5px;
+    margin-bottom: 175px;
+}
+.filter label {
+    display: block; /* Ensure each label is on a new line */
+    margin-bottom: 10px; /* Add space below each label */
+}
+
+.filter input {
+    width: 100%; /* Ensure input fields take up full width */
+    padding: 8px; /* Add padding to input fields */
+    border-radius: 4px; /* Add border radius to input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+    margin-bottom: 15px; /* Add space below each input field */
+}
+button{
+    padding: 5px;
+    background-color: #1a1a90;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }

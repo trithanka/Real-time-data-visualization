@@ -1,0 +1,42 @@
+.container_c {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 15px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  input[type='text'] {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  input[type='submit'] {
+    padding: 10px;
+    background-color: #1a1a90;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+  }
+  .red{
+    color: red;
+  }
+  .success{
+    color: green;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #134880;
+  }
+  

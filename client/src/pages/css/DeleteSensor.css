@@ -1,0 +1,30 @@
+.delete-sensor-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  margin: 20px;
+  padding: 20px;
+  
+  /* background-color: #050529; */
+  color: #fff;
+  
+}
+.form-delete{
+    background-color: #050529;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 50px;
+    
+}
+label{
+    padding: 10px;
+}
+#sensorId{
+    margin-top: 20px;
+    display: flex;
+}
+  
+ 
+  

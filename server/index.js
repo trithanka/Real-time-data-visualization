@@ -27,7 +27,7 @@ const db = new sqlite3.Database('./db/database.sqlite', (err) => {
 
 
 // Start simulating sensor data
-// simulateSensorData();
+simulateSensorData();
 
 app.listen(port,()=>{
     console.log(`server is running on port ${port}`)

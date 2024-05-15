@@ -69,7 +69,7 @@ function LineG() {
         scales: {
             x: {
                 type: 'time', // Use time scale for x-axis
-                time: { unit: 'second' }, // Display x-axis labels in second intervals
+                time: { unit: 'minute' }, // Display x-axis labels in second intervals
                 min: earliestTimestamp,
                 max: latestTimestamp,
                 pan: { enabled: true, mode: 'x' }

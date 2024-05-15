@@ -1,6 +1,6 @@
 const db = require('../../db/database');
 
-//get all sensor
+//get all sensor 
 const getSensorData=async(req,res)=>{
     let query = "SELECT * FROM Reading";
     let params = [];

@@ -3,15 +3,16 @@ const db = require('../db/database');
 
 // Simulated sensor data
 const sensorData = {
-    1: null, // Initial value for sensor 1
-    2: null, // Initial value for sensor 2
-    3: null  // Initial value for sensor 3
+    1: null, // Initial value for sensor 1,2,3
+    2: null, 
+    3: null
 };
 
 function generateTemperatureReading() {
     return Math.random() * 100;
 }
 
+//function to insert data into db
 function insertSensorData(sensorId, value) {
     const timestamp = new Date().toISOString();
     db.run('INSERT INTO Reading (sensor_id, value, timestamp) VALUES (?, ?, ?)', [sensorId, value, timestamp], (err) => {
@@ -35,7 +36,7 @@ function updateSensorData(sensorId, previousValue, newValue) {
 }
 
 function simulateSensorData() {
-    const interval = 10000; // Interval in milliseconds
+    const interval = 2000; // Interval in milliseconds
 
     setInterval(() => {
         // Generate temperature readings for each sensor

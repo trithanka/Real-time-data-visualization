@@ -1,7 +1,6 @@
 const express=require("express");
 const cors=require("cors")
 const app=express()
-
 app.use(cors())
 const { simulateSensorData } = require("./utils/sensonSimulator");
 const sqlite3 = require('sqlite3').verbose(); // Import sqlite3 module
@@ -22,9 +21,6 @@ const db = new sqlite3.Database('./db/database.sqlite', (err) => {
         console.log('Connected to the SQLite database');
     }
 });
-
-
-
 
 // Start simulating sensor data
 simulateSensorData();
